@@ -1,12 +1,19 @@
 import React from 'react';
-import './App.css';
+import './css/uifont.css';
+import './css/App.css';
+import './css/props.css';
 
+
+import Header from './screens/Header';
+import Sidebar from './screens/Sidebar'
 function App() {
-  return (
-    <div className="App">
-        
-    </div>
-  );
+    return (
+        <div className="App flex">
+            <Sidebar />
+
+            <Header />
+        </div>
+    );
 }
 
 export default App;
